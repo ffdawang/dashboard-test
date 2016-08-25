@@ -10,7 +10,7 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script>
 $(function() {
-	$('.progressbar').each(function(){
+	$('.bar-bg').each(function(){
 		var t = $(this);
 		var dataperc = t.attr('data-perc'), barperc = 0; //Math.round(dataperc*5.56);
 		t.find('.bar').animate({width:'0%' }, dataperc*25);
@@ -67,8 +67,10 @@ $(function() {
     <div class="box box8">
     	<div class="sum">今日预警处理情况</div>
         <div class="progressbar" data-perc="50">
-			<div id="warning_ratio"  class="bar color2">
-            	<span></span>
+        	<div class="bar-bg">
+				<div id="warning_ratio"  class="bar color2">
+            		<span></span>
+                </div>
             </div>
 		</div>
         <div class="legend">
@@ -91,12 +93,14 @@ $(function() {
     
     <div class="box box10">
         	<div class="sum">今日预警处理情况</div>
-            <div class="progressbar" data-perc="75">
-				<div id="car_ratio"  class="bar color2"><span></span></div>
+            <div class="progressbar">
+            	<div class="bar-bg">
+					<div id="car_ratio"  class="bar color2"><span></span></div>
+                </div>
 			</div>
             <div class="legend">
-            	<i class="fa fa-square legend-1"></i> 已处理 <span id="wh_finished_warnings">--</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            	<i class="fa fa-square legend-2"></i> 处理中 <span id="wh_unfinished_warnings">--</span>
+            	<i class="fa fa-square legend-1"></i> 已处理 <span id="car_finished_warnings">--</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            	<i class="fa fa-square legend-2"></i> 处理中 <span id="car_unfinished_warnings">--</span>
             </div>
     </div>
     <!--<div class="box box9 left-b">
