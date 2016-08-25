@@ -1,0 +1,30 @@
+{
+	"wh_spaces": 116,
+	"wh_tickets": 30,
+	"wh_finished_warnings": 0,
+	"wh_unfinished_warnings": 138,
+	"wh_today_alarms": 138,
+	"wh_expired_alarms": 0,
+	"wh_alarm_lists": [{
+      "title": "56289db9-3c3e-11e6-81ec-525400390fbd",
+      "content": "仓库:22,15号仓位货品轮廓发生变化"
+    }, {
+      "title": "2c35e277-3c39-11e6-9bc4-525400ebd4ad",
+      "content": "仓库:33,仓位2,增加3.102吨"
+    }, {
+      "title": "3d9a8447-3bfd-11e6-8380-5254003d8b12",
+      "content": "仓库:铁丰,10号仓位货品轮廓发生变化"
+    }, {
+      "title": "ba54debb-3ab3-11e6-8849-525400fd0160",
+      "content": "仓库:23,4号仓位货品轮廓发生变化"
+    }, {
+      "title": "b91e58ef-39e0-11e6-8380-5254003d8b12",
+      "content": "仓库:铁丰,5号仓位货品轮廓发生变化"
+    }, {
+      "title": "b91e58ef-39e0-11e6-8380-5254003d8b12",
+      "content": "仓库:铁丰,5号仓位货品轮廓发生变化"
+    }, {
+      "title": "b91e58ef-39e0-11e6-8380-5254003d8b12",
+      "content": "仓库:铁丰,5号仓位货品轮廓发生变化"
+    }]
+}

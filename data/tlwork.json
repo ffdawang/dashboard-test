@@ -1,0 +1,407 @@
+{
+	"expand": "schema,names",
+	"startAt": 0,
+	"maxResults": 50,
+	"total": 147,
+	"issues": [{
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10869",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10869",
+		"key": "WPTM-11",
+		"fields": {
+			"summary": "武汉钢库1-10号雷达只灯光闪烁，不移动"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10871",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10871",
+		"key": "WPTM-13",
+		"fields": {
+			"summary": "仓库断电后，发生时间不同步，超前发送数据包"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10867",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10867",
+		"key": "WPTM-9",
+		"fields": {
+			"summary": "仓库仪表清零"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10864",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10864",
+		"key": "WPTM-6",
+		"fields": {
+			"summary": "监控宝告警，NVR 连接不通"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10926",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10926",
+		"key": "WPTM-16",
+		"fields": {
+			"summary": "无锡中储11号仓位视频显示时间有误差"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10935",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10935",
+		"key": "WPTM-18",
+		"fields": {
+			"summary": "青岛得邦视频信息无法调取"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10934",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10934",
+		"key": "WPTM-17",
+		"fields": {
+			"summary": "雷达不工作"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10818",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10818",
+		"key": "WPTM-2",
+		"fields": {
+			"summary": "【中储10号库：12号仓位存放了两件铝板，毛重分别为1.398、2.008吨，使用叉车第一次将1.398吨叉至13号仓位时，重量正常记录，第二次将2.008吨叉车中转区时，该仓库重量没有发生变化，没有正常记录，同时在出库区（14号仓位）却发生了重量为负2.04吨，再次将13号仓位货物叉至中转区时，重量也正常记录。】"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10865",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10865",
+		"key": "WPTM-7",
+		"fields": {
+			"summary": "崇贤港库仓位2和3的视频黑屏"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10833",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10833",
+		"key": "WPTM-3",
+		"fields": {
+			"summary": "【33号库 中锦有一台行车在2号仓位，位置不显示】"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10938",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10938",
+		"key": "WPTM-20",
+		"fields": {
+			"summary": "无锡中储10号库摄像机没有视频"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10942",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10942",
+		"key": "WPTM-23",
+		"fields": {
+			"summary": "无锡中储定位引擎数据异常"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10943",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10943",
+		"key": "WPTM-24",
+		"fields": {
+			"summary": "无锡中储雷达不工作"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10939",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10939",
+		"key": "WPTM-21",
+		"fields": {
+			"summary": "无锡中储10号库雷达小车不工作"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10941",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10941",
+		"key": "WPTM-22",
+		"fields": {
+			"summary": "无锡中储雷达扫描无结果"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10937",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10937",
+		"key": "WPTM-19",
+		"fields": {
+			"summary": "无锡中储无雷达数据"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10944",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10944",
+		"key": "WPTM-25",
+		"fields": {
+			"summary": "无锡中储叉车定位不准"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10950",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10950",
+		"key": "WPTM-31",
+		"fields": {
+			"summary": "无锡中储操作状态服务器远程桌面登录不了"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10946",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10946",
+		"key": "WPTM-27",
+		"fields": {
+			"summary": "无锡中储雷达工作不正常"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10945",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10945",
+		"key": "WPTM-26",
+		"fields": {
+			"summary": "无锡中储雷达工作不正常"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10949",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10949",
+		"key": "WPTM-30",
+		"fields": {
+			"summary": "无锡中储摄像机画面异常"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10947",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10947",
+		"key": "WPTM-28",
+		"fields": {
+			"summary": "无锡中储雷达工作不正常"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10956",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10956",
+		"key": "WPTM-37",
+		"fields": {
+			"summary": "无锡中储视频显示时间有误差"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10952",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10952",
+		"key": "WPTM-33",
+		"fields": {
+			"summary": "无锡中储核心网关监控报警"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10955",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10955",
+		"key": "WPTM-36",
+		"fields": {
+			"summary": "无锡中储雷达小车不工作"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10957",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10957",
+		"key": "WPTM-38",
+		"fields": {
+			"summary": "无锡中储雷达连接不上"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10954",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10954",
+		"key": "WPTM-35",
+		"fields": {
+			"summary": "武汉武钢雷达通讯不稳定"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10953",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10953",
+		"key": "WPTM-34",
+		"fields": {
+			"summary": "青岛得邦仓库断电"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10951",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10951",
+		"key": "WPTM-32",
+		"fields": {
+			"summary": "无锡洛社雷达不工作"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10958",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10958",
+		"key": "WPTM-39",
+		"fields": {
+			"summary": "杭州崇贤港UPS断电报警"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10948",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10948",
+		"key": "WPTM-29",
+		"fields": {
+			"summary": " 12号仓位1件镀锌卷出库，进行仓单明细拆分，拆分到10号仓位，10号仓位重量没有记录"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10960",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10960",
+		"key": "WPTM-40",
+		"fields": {
+			"summary": "无锡中储10号库：仓押监测行车信息重量与仪有信息重量不相符"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10974",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10974",
+		"key": "WPTM-45",
+		"fields": {
+			"summary": " 1号仓位货物出库，叉车重量始终显示0 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10972",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10972",
+		"key": "WPTM-43",
+		"fields": {
+			"summary": " 座席登陆平台卡顿，话机与坐席平台通话状态不一致 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10973",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10973",
+		"key": "WPTM-44",
+		"fields": {
+			"summary": " 从9号位拆到7号位，重量没有记录 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10976",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10976",
+		"key": "WPTM-47",
+		"fields": {
+			"summary": " 1-4有一个雷达连不上了，wifi模块不通 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10978",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10978",
+		"key": "WPTM-49",
+		"fields": {
+			"summary": " 杭州崇贤CW13   CW12视频黑屏 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10975",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10975",
+		"key": "WPTM-46",
+		"fields": {
+			"summary": " 监控宝告警NVR无法连接 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10977",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10977",
+		"key": "WPTM-48",
+		"fields": {
+			"summary": " ups邮件告警 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10985",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10985",
+		"key": "WPTM-56",
+		"fields": {
+			"summary": " 12楼指挥中心查看仓库球机云台移动速度过快，无法精准控制 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10982",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10982",
+		"key": "WPTM-53",
+		"fields": {
+			"summary": " 仓押卫士视频抓拍的照片时间和指挥中心大屏幕上的视频时间不一致。 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10984",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10984",
+		"key": "WPTM-55",
+		"fields": {
+			"summary": " 青岛得邦仓库28日下午停电1-2小时，仓库总配电箱故障 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10981",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10981",
+		"key": "WPTM-52",
+		"fields": {
+			"summary": " NVR服务器（32路）连接不上 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10980",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10980",
+		"key": "WPTM-51",
+		"fields": {
+			"summary": " 11-19号仓位雷达不工作 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10979",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10979",
+		"key": "WPTM-50",
+		"fields": {
+			"summary": " 指挥中心5个摄像头无法连接 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10983",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10983",
+		"key": "WPTM-54",
+		"fields": {
+			"summary": " 电脑无法上网 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10986",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10986",
+		"key": "WPTM-57",
+		"fields": {
+			"summary": " 12楼指挥中心坐席话务系统无法呼出呼入，内线互拨正常 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10919",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10919",
+		"key": "WPTM-15",
+		"fields": {
+			"summary": "杭州崇贤：CW2和CW3视频黑屏"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10988",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10988",
+		"key": "WPTM-59",
+		"fields": {
+			"summary": " 监控宝告警串口服务器断开 "
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10987",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10987",
+		"key": "WPTM-58",
+		"fields": {
+			"summary": " 12楼指挥中心无线网络不稳定，无线网络网速较慢 "
+		}
+	}]
+}

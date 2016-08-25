@@ -1,0 +1,420 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>wsn dashboard</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/progress.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
+$(function() {
+	$('.progressbar').each(function(){
+		var t = $(this);
+		var dataperc = t.attr('data-perc'),
+				barperc = Math.round(dataperc*5.56);
+		t.find('.bar').animate({width:barperc}, dataperc*25);
+
+	});
+});
+</script>
+
+</head>
+
+<body class="main">
+	<div class="top1">
+    	<div class="top-l">
+        	<img src="images/logo.png">
+        </div>
+        <div class="top-m">
+        	<span class="m-text">WSNCM运营服务中心</span>
+        </div>
+        <div class="top-r" id="current_date">
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+
+	<div class="box box1">
+    	<img src="images/cangya.png">
+    </div>
+    
+    <div class="box box2">
+        仓位数<div class="cangwei"><span id="wh_spaces"><b>--</b></span><span class="font-s"> 个</span></div>
+    </div>
+    
+    <div class="box box3">
+        仓单数<div class="cangdan"><span id="wh_tickets"><b>--</b></span><span class="font-s"> 张</span></div>
+    </div>
+    
+    <div class="box box4">
+    	<img src="images/cheya.png">
+    </div>
+    
+    <div class="box box5">
+    	停放点<div class="tingfang"><span id="car_spots"><b>--</b></span><span class="font-s"> 个</span></div>
+    </div>
+    
+    <div class="box box6">
+        车辆数<div class="cheliang"><span id="car_bound"><b>--</b></span><span class="font-s"> 辆</span></div>
+    </div>
+
+    
+    <div class="box box7">
+    	<span class="sum">当前累计</span><br />
+        <span class="orange" id="wh_total_warning">--</span>
+        <br /><span class="f80">个处理中</span>
+    </div>
+    <div class="box box8">
+    	<div class="sum">今日预警处理情况</div>
+        <div class="progressbar" data-perc="75">
+			<div class="bar color2">
+            	<span></span>
+            </div>
+		</div>
+        <div class="legend">
+            <i class="fa fa-square legend-1"></i> 已处理 <span id="wh_finished_warnings">--</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-square legend-2"></i> 处理中 <span id="wh_unfinished_warnings">--</span>
+        </div>
+    </div>
+    
+    <!--<div class="box box6">
+    	<p class="alarm2">未处理预警数</p>
+        <div class="yellowbox"><span style="font-size:0.45em">今日</span><br /><span id="wh_today_alarms">--</span></div>
+        <div class="redbox"><span style="font-size:0.45em">过期</span><br /><span id="wh_expired_alarms">--</span></div>
+    </div>-->
+    
+    <div class="box box9">
+    	<span class="sum">当前累计</span><br />
+        <span class="orange" id="car_total_warning">--</span>
+        <br /><span class="f80">个处理中</span>
+    </div>
+    
+    <div class="box box10">
+        	<div class="sum">今日预警处理情况</div>
+            <div class="progressbar" data-perc="75">
+				<div class="bar color2"><span></span></div>
+			</div>
+            <div class="legend">
+            	<i class="fa fa-square legend-1"></i> 已处理 <span id="wh_finished_warnings">--</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            	<i class="fa fa-square legend-2"></i> 处理中 <span id="wh_unfinished_warnings">--</span>
+            </div>
+    </div>
+    <!--<div class="box box9 left-b">
+    	<div class="chart-container">
+    		<div id="percentage_car" class="pie_progress" role="progressbar" aria-valuenow="56">
+            	<div class="pie_progress_number" id="car_total_warning">--</div>
+        	</div>
+        </div>
+        <div class="chart-text">
+        	<span class="alarm">今日预警数</span>
+            <p class="legend">
+            <i class="fa fa-square green"></i> 已完成 <span id="car_finished_warnings">--</span><br />
+            <i class="fa fa-square blue"></i> 未完成 <span id="car_unfinished_warnings">--</span>
+            </p>
+        </div>
+        <div class="clear">
+        </div>
+    </div>-->
+    
+    <!--<div class="box box8">
+    	<p class="alarm2">未处理预警数</p>
+        <div class="yellowbox"><span style="font-size:0.45em">今日</span><br /><span id="car_today_alarms">--</span></div>
+        <div class="redbox"><span style="font-size:0.45em">过期</span><br /><span id="car_expired_alarms">--</span></div>
+    </div>-->
+    
+    <div class="box box11">
+    	<div class="list-tt-1">
+        预警列表
+        </div>
+       <div class="list-content scroll-text" id="wh_alarm_lists">
+        	<ul>
+            
+            </ul>
+        </div>
+    </div>
+     
+    <div class="box box12">
+    	<div class="list-tt-2">
+        工单列表
+        </div>
+       <div class="list-content scroll-text" id="wh_work_lists">
+        	<ul>
+            <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+        	 <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+             <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+             <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+             <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+             <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="box box13">
+    	<div class="list-tt-1">
+        预警列表
+        </div>
+        <div class="list-content scroll-text" id="car_alarm_lists">
+        	<ul>
+        	<li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+        	<li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+        	<li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+            <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+        	<li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+        	<li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+        </ul>
+        </div>
+    </div>
+    
+    <div class="box box14">
+    	<div class="list-tt-2">
+        工单列表
+        </div>
+        <div class="list-content scroll-text" id="car_work_lists">
+        	<ul>
+            <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+        	 <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+             <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+             <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+             <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+             <li class="list">
+        	WPTM-41<br />深圳中锦：现场作业行车正常移动，仓押...
+        	</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <script type="text/javascript" src="js/jquery-asPieProgress.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollbox.js"></script>
+    <script type="text/javascript">
+
+    var keyMatch = function(o1, o2, key ) {
+    	if( o1[key] === o2[key] ) return true;
+    	return false;
+    }
+
+    var listMatch = function( l1, l2 ) {
+    	if( typeof l1 === typeof l2 && typeof l1 === 'undefined') return true;
+    	if( l1.length != l2.length ) return false;
+    	for( i=0; i<l1.length; i++ ) {
+    		if( l1[i]['content'] === l2[i]['content'] ) continue;
+    		return false;
+    	}
+    	return true;
+    }
+
+    var listMatch2 = function(l1, l2) {
+    	if( l1.length != l2.length ) return false;
+    	for( i in l1 ) {
+            if( l1[i].key === l2[i].key && l1[i].fields.summary == l2[i].fields.summary ) continue;
+    		return false;
+    	}
+    	return true;
+    }
+
+	var dataChanged = function(o1, o2) {
+		var keys = ['wh_spaces', 'wh_tickets', 'car_spots', 'car_bound', 
+		'wh_finished_warnings','wh_unfinished_warnings', 'car_finished_warnings', 'car_unfinished_warnings',
+		'wh_today_alarms', 'wh_expired_alarms', 'car_today_alarms', 'car_expired_alarms'];
+
+		for( i in keys ) {
+			if( !keyMatch(o1, o2, keys[i])) return true;
+		}
+		var lists = ['wh_alarm_lists','car_alarm_lists'];
+		for( i in lists ) {
+			if( !listMatch( o1[lists[i]], o2[lists[i]] ) ) return true;
+		}
+		return false;
+	};
+
+	var wh_update_period = 5000, wh_last_data = null, car_update_period = 5000, car_last_data = null, wh_work_list = null, car_work_list = null;
+
+	var scrollboxes = {"wh_alarm_lists":null, "wh_work_lists":null, "car_alarm_lists":null, "car_work_lists":null};	
+
+	var clearScrollbox = function(dict, o) {
+		if( dict[o] ) {
+			dict[o].trigger('removeTimers');
+			dict[o] = null;
+		}
+		$('#' + o + ' ul li').remove();		
+	}
+
+	var initScrollbox = function(dict, o) {
+		dict[o] = $('#'+o).scrollbox({
+			linear:true,
+			step:1,
+			delay:0,
+			speed:32
+		});	
+	}
+	var renderScrollbox = function(data, o) {
+		var htmlText = '';
+		for( it in data[o] ) {
+			htmlText += '<li class="list">' + data[o][it].content + '<br/></li>';
+		}
+		$('#' + o + ' ul').html(htmlText);
+	}
+
+	var renderScrollbox2 = function( lst, o ) {
+		var htmlText = '';
+		for( it in lst ) {
+			htmlText += '<li class="list">' + lst[it].key + '<br/>' + lst[it].fields.summary + '</li>';
+		}
+		$('#' + o + ' ul').html(htmlText);
+	}
+
+
+	$(function() {	
+		var update_date = function() {
+			var Today=new Date();
+			var s = Today.getFullYear()+ " 年 " + (Today.getMonth()+1) + " 月 " + Today.getDate() + " 日";
+			$('#current_date').text(s);
+			setTimeout(update_date, 1000);
+		}
+
+		update_date();
+
+		var wh_pie = $("#percentage_wh").asPieProgress({
+			namespace: 'pie_progress'
+		});	
+
+		var car_pie = $("#percentage_car").asPieProgress({
+			namespace: 'pie_progress'
+		});				
+		var refreshWHInfo = function() {
+			return $.ajax({
+				url:'data/tlwork.json',
+				type:'GET',
+				cache:false,
+				dataType:'json',
+				success:function(data) {
+					if( wh_work_list == null || !listMatch2( wh_work_list, data.issues ) ) {
+						clearScrollbox( scrollboxes, 'wh_work_lists');
+						renderScrollbox2( data.issues, 'wh_work_lists');
+						initScrollbox( scrollboxes, 'wh_work_lists');
+					}
+					wh_work_list = data.issues;
+				}
+			}).always(function(){
+				return $.ajax({
+					url:"data/tlboard.json",
+					type:"GET",
+					cache:false,
+					dataType:'json',
+					success:function(data){
+						if( wh_last_data == null || dataChanged( wh_last_data, data ) ) {
+							$('#wh_spaces').text(data.wh_spaces);
+							$('#wh_tickets').text(data.wh_tickets);
+							$('#wh_today_alarms').text(data.wh_today_alarms);
+							$('#wh_finished_warnings').text(data.wh_finished_warnings);
+							$('#wh_unfinished_warnings').text(data.wh_unfinished_warnings);
+							$('#wh_expired_alarms').text(data.wh_expired_alarms);
+							$('#wh_total_warning').text(data.wh_unfinished_warnings + data.wh_finished_warnings);	
+							if( !wh_last_data || listMatch(data['wh_alarm_lists'], wh_last_data['wh_alarm_lists'])) {
+								clearScrollbox( scrollboxes, 'wh_alarm_lists');
+								renderScrollbox( data, 'wh_alarm_lists' );
+								initScrollbox(scrollboxes, 'wh_alarm_lists');
+							}
+							wh_last_data = data;
+							wh_pie.asPieProgress('go', Math.round(100.0*data.wh_finished_warnings/(data.wh_finished_warnings+data.wh_unfinished_warnings)))				
+						}
+					},
+					error:function(xhr, status, error) { 
+						var err = eval("(" + xhr.responseText + ")"); console.log(err); 
+					}
+				}).always(function() {
+					setTimeout(refreshWHInfo, wh_update_period);
+				});	
+			});		
+		}
+	
+		var refreshCARInfo = function() {
+			return $.ajax({
+				url:'data/vpwork.json',
+				type:'GET',
+				cache:false,
+				dataType:'json',
+				success:function(data) {
+					if( car_work_list == null || !listMatch2( car_work_list, data.issues ) ) {
+						clearScrollbox( scrollboxes, 'car_work_lists');
+						renderScrollbox2( data.issues, 'car_work_lists');
+						initScrollbox( scrollboxes, 'car_work_lists');
+					}
+					car_work_list = data.issues;					
+				}
+			}).always(function(){
+				return $.ajax({
+					url:"data/vpboard.json",
+					type:"GET",
+					cache:false,
+					dataType:'json',
+					success:function(data){
+						if( car_last_data == null || dataChanged( car_last_data, data ) ) {
+							$('#car_bound').text(data.car_bound);
+							$('#car_spots').text(data.car_spots);
+							$('#car_expired_alarms').text(data.car_expired_alarms);
+							$('#car_finished_warnings').text(data.car_finished_warnings);	
+							$('#car_unfinished_warnings').text(data.car_unfinished_warnings);
+							$('#car_today_alarms').text(data.car_today_alarms);
+							$('#car_total_warning').text(data.car_unfinished_warnings + data.car_finished_warnings);
+							if( !car_last_data || listMatch(data['car_alarm_lists'], car_last_data['car_alarm_lists'])) {
+								clearScrollbox( scrollboxes, 'car_alarm_lists');
+								renderScrollbox( data, 'car_alarm_lists' );
+								initScrollbox(scrollboxes, 'car_alarm_lists');							
+							}
+							car_last_data = data;	
+							car_pie.asPieProgress('go', Math.round(100.0*data.car_finished_warnings/(data.car_finished_warnings+data.car_unfinished_warnings)))					
+						}
+					},
+					error:function(xhr, status, error) { 
+						var err = eval("(" + xhr.responseText + ")"); console.log(err); 
+					}
+				}).always(function() {
+					setTimeout(refreshCARInfo, car_update_period);
+				});	
+			});		
+		}		
+		refreshWHInfo();
+		refreshCARInfo();		
+	});
+
+    </script>
+
+</body>
+</html>

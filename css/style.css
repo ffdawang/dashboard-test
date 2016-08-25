@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, "Microsoft YaHei", "Hiragino Sans GB", "STHeiti Light", "SimHei";
+	font-size: 1.6vw;
+	overflow: hidden;
+}
+
+.main {
+	background: #3e3a39;
+}
+
+.top1 {
+	width:100%;
+	margin-top: 3.3%;
+	margin-top: 3.3vh;
+	height: 6%;
+	height: 6vh;
+}
+
+.top-l, .top-m, .top-r {
+	float: left;
+	width: 29%;
+	padding: 0 2%;
+}
+
+.top-l {
+	text-align: left;
+}
+
+.top-l img {
+	max-width: 70%;
+}
+.top-m {
+	text-align: center;
+}
+.m-text {
+	background: url(../images/underline.png) no-repeat bottom center;
+	padding-bottom: 8px;
+    background-size: 100% auto;
+    font-size: 1.2em;
+}
+.top-r {
+	text-align: right;
+	font-size: 0.7em;
+	margin-top: 1em;
+}
+
+.box {
+	float: left;
+	width: 25%;
+	height: 33.3%;
+	height:33.33vh;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+	height: 20% !important;
+	height: 20vh !important;
+	margin: 3% 0 1% 0;
+	margin: 3vh 0 1vh 0;
+	width: 16.5% !important;
+	width: 16.5vw !important;
+	padding: 0 2% !important;
+	padding: 0 2vw !important;
+	text-align: center;
+}
+
+.box1 img, .box4 img {
+	max-width: 70%;
+    margin-top: 20%;
+}
+
+.cangwei {
+	background: url(../images/cangwei.png) no-repeat;
+	background-size: 100% auto;
+}
+
+.cangdan {
+	background: url(../images/cangdan.png) no-repeat;
+	background-size: 100% auto;
+}
+
+.cheliang {
+	background: url(../images/cheliang.png) no-repeat;
+	background-size: 100% auto;
+}
+
+.tingfang {
+	background: url(../images/tingfang.png) no-repeat;
+	background-size: 100% auto;
+}
+
+.cangwei, .cangdan, .tingfang, .cheliang { 
+	margin-top: 10%;
+    height: 90%;
+	line-height: 4em;
+    font-size: 1.8em;
+}
+
+.cangwei img, .cangdan img, .tingfang img, .cheliang img{
+	max-width:50%;
+	margin:0;
+	padding:0;
+}
+
+.block {
+	display: block;
+}
+
+.font-s {
+	font-size: 0.4em;
+}
+
+.box7, .box9 {
+	width: 16.5% !important;
+	width: 16.5vw !important;
+	padding: 0 2% !important;
+	padding: 0 2vw !important;
+	height: 22% !important;
+	height: 22vh !important;
+	margin: 5% 0 6% 0;
+	margin: 5vh 0 6vh 0;
+}
+
+.box8, .box10 {
+	width: 33% !important;
+	width: 33vw !important;
+	padding: 0 2% !important;
+	padding: 0 2vw !important;
+	height: 22% !important;
+	height: 22vh !important;
+	margin: 5% 0 6% 0;
+	margin: 5vh 0 6vh 0;
+	text-align: left;
+}
+
+.box11, .box12, .box13, .box14 {
+	overflow: hidden;
+}
+
+.date {
+	font-size: 0.63em;
+	margin-top: 17%;
+}
+
+.orange {
+	color: #ea6100;
+	font-size: 3.8em;
+}
+
+.chart-container {
+	width: 40%;
+	margin: 14% 8% 0;
+	float: left;
+}
+.chart-text {
+	width: 40%;
+	float: left;
+	text-align: left;
+	margin-top:15%;
+}
+
+.f80 {
+	font-size: 0.8em;
+}
+
+.sum {
+	line-height: 3em; 
+}
+
+.legend {
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+
+.legend-1 {
+	color: #ea6100;
+}
+
+.legend-2 {
+	color: #fbba8f;
+}
+
+.clear {
+	clear: both;
+}
+
+
+.alarm {
+}
+
+.list-tt {
+	margin: 2% 7% 0;
+	line-height: 1.5em;
+	border-bottom: 1px solid #666666;
+	text-align:left;
+}
+
+.list-tt-1 {
+	background: url(../images/yujing.png) no-repeat left top;
+	margin: 0 7%;
+	line-height: 1.5em;
+	text-align:left;
+	height: 1.5em;
+    background-size: auto 100%;
+    padding: 2em 0 0 3em;
+}
+
+.list-tt-2 {
+	background: url(../images/gongdan.png) no-repeat left top;
+	margin: 0 7%;
+	line-height: 1.5em;
+    text-align: left;
+    height: 1.5em;
+    background-size: auto 100%;
+    padding: 2em 0 0 3em;
+}
+
+.list-content {
+	text-align:left;
+	font-size: 0.7em;
+}
+
+.list {
+	
+}
+
+.blue {
+	color: #0072b9;
+}
+
+.yellow {
+	color: #edaf36;
+}
+
+.purple {
+	color: #9e538c;
+}
+
+.green {
+	color: #00c34a;
+}
+
+/*.left-b {
+	border-left: solid 1px #000000;
+}*/
+
+.alarm2 {
+	margin: 0;
+	padding: 0;
+	margin: 9% 0 3%;
+}
+
+.redbox {
+	background: rgba(236,43,44, 0.37);
+	border: 2px solid #ec2b2c;
+	display: inline-block;
+	font-size: 2em;
+	padding: 1% 10% 5%;
+}
+
+.yellowbox {
+	background: rgba(248,193,1,0.37);
+	border: 2px solid #f8c101;
+	display: inline-block;
+	font-size: 2em;
+	padding: 1% 10% 5%;
+}
+
+.scroll-text {
+  height: 70%;
+  overflow: hidden;
+  margin: 5% 7% 0;
+}
+
+ul {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 4.7% 0;
+}
+
+.progressbar{
+    position:relative;
+    display:block;
+    width:80%;
+    height:20px;
+    padding:10px 20px;
+    border-bottom:1px solid #363232;
+    border-radius:16px;
+    margin:40px auto;
+    -webkit-box-shadow: 0px 4px 4px -4px rgba(255, 255, 255, 0.4),0px -3px 3px -3px rgba(255, 255, 255, 0.25),inset 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px -4px rgba(255, 255, 255, 0.4),0px -3px 3px -3px rgba(255, 255, 255, 0.25),inset 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+}
+.progressbar:before{
+    position:absolute;
+    display:block;
+    content:"";
+    width: calc(100% - 40px);
+    height:18px;
+    top:10px;
+    left:20px;
+	-webkit-border-radius:20px;
+    border-radius:20px;
+background: #f4b791; /* Old browsers */
+background: -moz-linear-gradient(top,  #f4b791 0%, #f89664 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f4b791 0%,#f89664 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f4b791 0%,#f89664 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4b791', endColorstr='#f89664',GradientType=0 ); /* IE6-9 */
+
+	-webkit-box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.85);;
+    box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.85);
+	border:1px solid rgba(0,0,0,0.8);
+}
+.bar {
+	position:absolute;
+	display:block;
+	width:0px;
+	height:16px;
+	top:12px;
+	left:22px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+}
+.bar.color2 {
+background: #ee7600; /* Old browsers */
+background: -moz-linear-gradient(top,  #ee7600 0%, #e14400 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ee7600 0%,#e14400 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ee7600 0%,#e14400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee7600', endColorstr='#e14400',GradientType=0 ); /* IE6-9 */
+}

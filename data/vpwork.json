@@ -1,0 +1,407 @@
+{
+	"expand": "schema,names",
+	"startAt": 0,
+	"maxResults": 50,
+	"total": 100,
+	"issues": [{
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10834",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10834",
+		"key": "VPTM-4",
+		"fields": {
+			"summary": "平台显示正常，手机出现位置告警"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10844",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10844",
+		"key": "VPTM-14",
+		"fields": {
+			"summary": "NFC读取界面卡死无响应"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10845",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10845",
+		"key": "VPTM-15",
+		"fields": {
+			"summary": "存在干扰源影响绑定操作"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10848",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10848",
+		"key": "VPTM-18",
+		"fields": {
+			"summary": "车辆绑定时发生GPS坐标偏差，导致位置报警"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10849",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10849",
+		"key": "VPTM-19",
+		"fields": {
+			"summary": "重工终端设备吸附力不佳"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10856",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10856",
+		"key": "VPTM-26",
+		"fields": {
+			"summary": "车架号录入平台中可能出现信息不匹配"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10860",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10860",
+		"key": "VPTM-30",
+		"fields": {
+			"summary": "运营中发现未登记车库问题"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10858",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10858",
+		"key": "VPTM-28",
+		"fields": {
+			"summary": "车押卫士手机APP软件中设备解绑后取消点击设备回收"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10857",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10857",
+		"key": "VPTM-27",
+		"fields": {
+			"summary": "测试平台及设备组平台账号密码管控"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10854",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10854",
+		"key": "VPTM-24",
+		"fields": {
+			"summary": "测试工具存在设置问题，导致链路测试全部失败"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10847",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10847",
+		"key": "VPTM-17",
+		"fields": {
+			"summary": "终端设备遗失"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10873",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10873",
+		"key": "VPTM-31",
+		"fields": {
+			"summary": "APP无法登陆"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10881",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10881",
+		"key": "VPTM-39",
+		"fields": {
+			"summary": "手机不会自动识别车架号进行绑定"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10879",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10879",
+		"key": "VPTM-37",
+		"fields": {
+			"summary": "绑定过程中偶尔出现NFC数据界面无响应，需要重启APP方可正常操作。"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10876",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10876",
+		"key": "VPTM-34",
+		"fields": {
+			"summary": "停放点GPS坐标出现误差"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10877",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10877",
+		"key": "VPTM-35",
+		"fields": {
+			"summary": "绑定蓝牙终端提示位置告警"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10875",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10875",
+		"key": "VPTM-33",
+		"fields": {
+			"summary": "终端绑定发送超时"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10874",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10874",
+		"key": "VPTM-32",
+		"fields": {
+			"summary": "删除停放点报错"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10878",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10878",
+		"key": "VPTM-36",
+		"fields": {
+			"summary": "蓝牙终端绑定APP内提示绑定超时"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10884",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10884",
+		"key": "VPTM-42",
+		"fields": {
+			"summary": "NFC读取界面无响应，需重启手机方能正常操作"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10885",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10885",
+		"key": "VPTM-43",
+		"fields": {
+			"summary": "NFC读取界面无响应，需重启手机方能正常操作"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10887",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10887",
+		"key": "VPTM-45",
+		"fields": {
+			"summary": "今日车押终端在解绑后，监管员触碰车押终端，出现吸盘从终端脱落，无法正常使用"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10883",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10883",
+		"key": "VPTM-41",
+		"fields": {
+			"summary": "业务平台：报表功能-状态统计报表日期显示超前，与实际数据不符"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10888",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10888",
+		"key": "VPTM-46",
+		"fields": {
+			"summary": "离线告警信息无法解除"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10889",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10889",
+		"key": "VPTM-47",
+		"fields": {
+			"summary": "生产环境平台的报表功能与真实情况不符"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10886",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10886",
+		"key": "VPTM-44",
+		"fields": {
+			"summary": "业务平台-报表功能-状态统计中其它报表中显示与真实绑定不相符"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10882",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10882",
+		"key": "VPTM-40",
+		"fields": {
+			"summary": "绑定车押终端提示位置告警"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10895",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10895",
+		"key": "VPTM-53",
+		"fields": {
+			"summary": "终端使用较短时间后就提示电量不足"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10890",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10890",
+		"key": "VPTM-48",
+		"fields": {
+			"summary": "生产环境平台的报表功能与真实情况不符"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10894",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10894",
+		"key": "VPTM-52",
+		"fields": {
+			"summary": "存在未知干扰源影响绑定操作"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10891",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10891",
+		"key": "VPTM-49",
+		"fields": {
+			"summary": "报表功能-状态统计-其他报表中当日数据为空"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10892",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10892",
+		"key": "VPTM-50",
+		"fields": {
+			"summary": "车押终端在拆除过程中，吸盘脱落"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10893",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10893",
+		"key": "VPTM-51",
+		"fields": {
+			"summary": "绑定的车押终端自然脱落"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10898",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10898",
+		"key": "VPTM-56",
+		"fields": {
+			"summary": "强拆设备APP未有告警"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10899",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10899",
+		"key": "VPTM-57",
+		"fields": {
+			"summary": "使用原有帐号无法登陆业务平台"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10900",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10900",
+		"key": "VPTM-58",
+		"fields": {
+			"summary": "现场绑定终端提示“蓝牙静默”"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10903",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10903",
+		"key": "VPTM-61",
+		"fields": {
+			"summary": "弘嘉库出现设备强拆告警"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10902",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10902",
+		"key": "VPTM-60",
+		"fields": {
+			"summary": "NFC读取界面无响应，需重启手机方能正常操作"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10897",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10897",
+		"key": "VPTM-55",
+		"fields": {
+			"summary": "终端吸盘脱落"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10896",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10896",
+		"key": "VPTM-54",
+		"fields": {
+			"summary": "终端吸盘脱落"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10901",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10901",
+		"key": "VPTM-59",
+		"fields": {
+			"summary": "上海弘嘉店发现终端吸盘脱落"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10906",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10906",
+		"key": "VPTM-64",
+		"fields": {
+			"summary": "终端设备遗失"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10907",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10907",
+		"key": "VPTM-65",
+		"fields": {
+			"summary": "室外库信号无法覆盖"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10908",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10908",
+		"key": "VPTM-66",
+		"fields": {
+			"summary": "终端设备强拆并导致设备损坏"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10909",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10909",
+		"key": "VPTM-67",
+		"fields": {
+			"summary": "NFC读取界面无响应，需重启手机方能正常操作"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10905",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10905",
+		"key": "VPTM-63",
+		"fields": {
+			"summary": "重工终端脱落"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10904",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10904",
+		"key": "VPTM-62",
+		"fields": {
+			"summary": "用户APP升级失败"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10910",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10910",
+		"key": "VPTM-68",
+		"fields": {
+			"summary": "2台车押终端发生强拆告警"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10911",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10911",
+		"key": "VPTM-69",
+		"fields": {
+			"summary": "2台车押终端发生强拆告警"
+		}
+	}, {
+		"expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+		"id": "10916",
+		"self": "http://help.wsncm.com/rest/api/2/issue/10916",
+		"key": "VPTM-71",
+		"fields": {
+			"summary": "终端使用较短时间后就提示电量不足"
+		}
+	}]
+}
