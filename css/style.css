@@ -312,18 +312,17 @@ ul li {
 .progressbar:before{
     position:absolute;
     display:block;
-    content:"";
     width: calc(100% - 40px);
     height:18px;
     top:10px;
     left:20px;
 	-webkit-border-radius:20px;
     border-radius:20px;
-background: #f4b791; /* Old browsers */
-background: -moz-linear-gradient(top,  #f4b791 0%, #f89664 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #f4b791 0%,#f89664 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #f4b791 0%,#f89664 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4b791', endColorstr='#f89664',GradientType=0 ); /* IE6-9 */
+	background: #f4b791; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-linear-gradient(#f4b791 0%, #f89664 100%);
+    background: -o-linear-gradient(#f4b791 0%, #f89664 100%);
+    background: linear-gradient(#f4b791 0%, #f89664 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4b791', endColorstr='#f89664',GradientType=0 ); /* IE6-9 */
 
 	-webkit-box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.85);;
     box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.85);
@@ -340,6 +339,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4b791', end
 	border-radius:16px;
 }
 .bar.color2 {
+width:0%;
 background: #ee7600; /* Old browsers */
 background: -moz-linear-gradient(top,  #ee7600 0%, #e14400 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #ee7600 0%,#e14400 100%); /* Chrome10-25,Safari5.1-6 */
