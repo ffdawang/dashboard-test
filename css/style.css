@@ -18,8 +18,8 @@ body {
 
 .top1 {
 	width:100%;
-	margin-top: 3.3%;
-	margin-top: 3.3vh;
+	margin-top: 2%;
+    margin-top: 2vh;
 	height: 6%;
 	height: 6vh;
 }
@@ -67,14 +67,14 @@ body {
 
 .box1, .box2, .box3, .box4, .box5, .box6 {
 	height: 20% !important;
-	height: 20vh !important;
-	margin: 3% 0 1% 0;
-	margin: 3vh 0 1vh 0;
-	width: 16.5% !important;
-	width: 16.5vw !important;
-	padding: 0 2% !important;
-	padding: 0 2vw !important;
-	text-align: center;
+    height: 20vh !important;
+    margin: 0 1%;
+    margin: 0 1vw;
+    width: 14% !important;
+    width: 14vw !important;
+    padding: 2% 2% 1%!important;
+    padding: 2vh 2vw 1vh !important;
+    text-align: center;
 }
 
 .box1 img, .box4 img {
@@ -103,16 +103,32 @@ body {
 }
 
 .cangwei, .cangdan, .tingfang, .cheliang { 
-	margin-top: 10%;
-    height: 90%;
-	line-height: 4em;
+	height: 100%;
+    line-height: 3em;
     font-size: 1.8em;
+    padding-bottom: 5%;
+	margin-top: 5%;
 }
 
 .cangwei img, .cangdan img, .tingfang img, .cheliang img{
 	max-width:50%;
 	margin:0;
 	padding:0;
+}
+
+.hori, .hori1 {
+	display: block;
+	position:relative;
+}
+
+.hori1 {
+	height: 27%;
+	height: 27vh;
+}
+
+.hori {
+	height: 33%;
+	height: 33vh;
 }
 
 .block {
