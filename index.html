@@ -353,7 +353,6 @@ $(function() {
 							wh_last_data = data;
                             var r = data.wh_finished_warnings + data.wh_unfinished_warnings == 0 ? 0 : Math.round(100.0*data.wh_finished_warnings/(data.wh_finished_warnings+data.wh_unfinished_warnings));
                             var w = $('div.bar-bg').width();
-                            console.log('w = ' + w);
                             var p = r*(w - 40.0)/w + '%';
 
                             wh_perc.animate({width:p }, 500);
